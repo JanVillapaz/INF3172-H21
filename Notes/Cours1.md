@@ -51,4 +51,19 @@ Upper-tier ISPs consists of high-speed routers interconnected with high-speed fi
 ```
 
 - Each ISP network, whether upper-tier or lower-tier, is managed independently, runs the IP protocol, and conformed to certain naming and address convensions.
-- End systems and packet switches
+- End systems, packet switches, and other pieces of the Internet run **protocols** that control the sending and receiving of information within the Internet.
+- The **Transmission Control Protocol (TCP)** and the **Internet Protocol (IP)** are two of the most important protocols in the Internet.
+
+```
+The Ip  protocol specifies the format of the packets that are sent and received among routers and end systems.
+```
+
+- The Internet's principal protocols are collectively known as **TCP/IP**. 
+- **Internet Standards** ard developed by the **Internet Engineering Task Force (IETF)**.
+- The IETF standards documents are called **requests for commets (RFCs).**
+- RFCs define protocols such ad TCP, IP, HTTP (for the Web), and SMTP (for e-mail). 
+- There are over 6,000 RFCs.
+- The IEEE 802 LAN/MAN Standards Commiteee, specifies the Ethernet and wireless WiFi standards
+
+
+
