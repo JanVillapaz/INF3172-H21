@@ -18,8 +18,33 @@ How to transform this idea into an actual Internet application? Because applicat
 - The Internet API is a set of rules that the sending program must follow so that the Internet can deliver the data to the destination program. 
 
 **Two descriptions of Internet talked about so far**
-- In terms of hardware and software components
-- In terms of infrastructure for providing services to ditributed applications
+Internet in terms of:
+- hardware and software components
+- infrastructure for providing services to ditributed applications
 
 ### 1.1.3 What is a Protocol?
+
+#### Network protocols
+
+- Entities exchanging messages and taking actions are hardware or software components of some device (ex: computer, smartphone, tablet, router, or other network-capable device).
+- All activities in the Internet that involves two or more communicating remote entities is governed by a protocol. 
+
+ex: hardware-implemented protocols in two physically connected computers control the flow of bits on the "wire" between the two network interface cards; 
+congestion-control protocols in end systems control the rate at which packets are transmitted between sender and receiver; 
+protocols in routers determine a packet's path from source to destination.
+
+ex of a computer network protocol:
+consider what happens when you make a request to a Web server, that is when you type a URL of a web page into your Web browser.
+1. The computer will send a connection request message to the Web server and wait for a reply
+2. The web server will eventually receive your connection request message and return a connection reply message
+3. Knowing it is OK to request the Web document, your computer then send the name of the Web page it wants to fetch from that Web server in a GET message
+4. Finally, the Web server returns the Web page (file) to your computer. 
+
+Exchange of messages and the actions taken when these messages are sent and received are the key defining elements of a protocol.
+
+``
+A protocol defines the format and the order of messages exchanged between two or more communicating entities, as well as the actions taken on the transmission and/or receipt of a message or other event.
+``
+
+- Different protocols are used to accomplish different communication tasks.
 
