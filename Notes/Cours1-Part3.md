@@ -46,7 +46,33 @@ Hundreds or even thousands of households connect to a single DSLAM
 
 While DSL makes use of telco's existing local telephone infrastructure, **cable Internet access** makes use of the cable television company's existing cable television infrastructure.
 - Aresidence can obtain cable Internet access from the same company that provides its cable television.
-- -Fiber optics connect the cable head end to neighbourhood-level junctions, from which traditional coaxial cable is then used to reach individual houses and appartments. 
+- Fiber optics connect the cable head end to neighbourhood-level junctions, from which traditional coaxial cable is then used to reach individual houses and appartments. 
 - Each neighbourhood junction typically supports 500 to 5,000 homes.
 - Because both fiber and coaxial cable are employed in this system, it is often referred to as hybrid fiber coax (HFC) p.14
+
+- Cable internet access requires special modems, called cable modems.
+- As with a DSL modem, the cable modem is typically an external device and connects to the home PC through an Ethernal port.
+- At the cable head end, the cable modem termination system (CMTS) servers a similar function as the DSL network's DSLAM - turning the analog signal sent from the cable modems in many downstream homes back into digital format.
+- Cable modem divide the HFC network into two channels, a downstream and a stream channel. 
+
+- As with DSL, access is typically asymmetric, with the downstream channel typically allocated a higher transmission rate than the upstream channel.
+- The DOCSIS 2.0 standard defines downstream rates up to 42.8 ,bps and upstream rates of up to 30.7 Mbps
+- As in the case of DSL networks, the maximum achievable rate may not be realized due to lower contracted data rates or media impairments.
+
+- One important characteristic of cable Internet access is that it is a shared broadcast medium. In particular, every packet sent by the head end travels downstream on every link to every home and every packet send by a home travels on the upstream channel to the head end (Headend = is the facility at a local cable TV).
+- For this reason, if several users are simultaneously downloading a video file on the downstream channel, the actual rate at which each user receives its video file will be significantly lower than the aggregate cable downstream rate.
+- On the otehr hand, if there are only a few active users and they are all Web surfing, then each ofthe users may actually receive Web pages at the full cable downstream rate, because the users will rarely request a Web page at exactly the same time. 
+- Because the upstream channel is also shared, a distributed multiple access protocol is needed to coordinate transmissions and avoid collisions.
+
+- Although DSL and cable networks currently represent more than 90 percent of residential broadband access in the US, and up-and-coming technology that promises even higher speeds is the deployment of **fiber to the home (FTTH)** 
+- As the name suggests, the FTTH concept is simple-provide an optical fiber path from the CO directly tot he home.
+- In the US, Verizon has been particularly aggressive with tthe FTTH WITH ITS fios SERVICE (2012)
+
+- There are several competing technologies for optical distribution from the CO to the homes.
+- The simplest optical distribution network is called direct fiber, with one fiber leaving the CO for each home.
+- More commonly, each fiber leaving the central office is actually shared by many homes.; it is not until the fiber gets relatively close to the homes that it splits into individual customer-specific fibers. There are two competing optical-distribution network architectures that perform this splitting: active optical networks (AONs) and passive optical networks (PONs).
+- AON is essentially switched Ethernet.
+- PON: Each home has an optical network terminator (ONT), which is connected by dedicated optical fiber to a neighborhood splitter.
+- The splitter combines a number of homes (typically less than 100) onto a single, shared optical fiber, which connects to an optical line terminator (OLT) in the telco's CO.
+
 
