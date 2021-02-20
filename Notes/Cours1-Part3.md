@@ -75,4 +75,27 @@ While DSL makes use of telco's existing local telephone infrastructure, **cable 
 - PON: Each home has an optical network terminator (ONT), which is connected by dedicated optical fiber to a neighborhood splitter.
 - The splitter combines a number of homes (typically less than 100) onto a single, shared optical fiber, which connects to an optical line terminator (OLT) in the telco's CO.
 
+### 1.2.2 Physical Media
 
+- A physical medium can take many shapes and forms and does not have to be of the same type for each transmitter-receiver pair along the path.
+ex: twisted-pair copper wire, coaxial cable, multimode fiber-optic cable, terrestrial radio spectrum, and satellite radio spectrum.
+
+Physical medium fall into two categories:
+- Guided media and unguided media
+
+Guided media: the waves are guided along a solid medium -> fiber-optic cable, twister-pair copper wire, or a coaxial cable
+Unguided media: the waves propagate in the atmosphere and in outer space, such as in wireless LAN or a digital satellite channel
+
+- Cost of physical link (copper wire, fiber-optic, etc) is often relatively minor compared with other networking cost.
+- Labot cost associated with the installation of the physical link can be orders of magnitude higher than the cost of the material.
+- For this reason, many builders install twisted-pair, optical fiber, and coaxial cable in every room in a building even if only one medium is initially used. There is a good chance that another medium could be used in the near future, and so money is saved by not having to lay additional wires in the future.
+
+#### Twisted-pair copper wire
+- The least expensive and most commonly used guided transmission medium.
+- For hundreds of years, it has been used by telephone networks.
+- More than 99% of the wired connections from the telephone handset to the local telephone switch use twisted-pair copper wire.
+- Twisted pair consists of two insulated copper wires, each about 1mm thick, arranged in a regular spiral pattern.
+- The wires are twisted together to reduce the electrical interference from similar pairs close by. 
+- - A wire pair constitute a communication link
+
+**Unshielded twisted pair (UTP)** is commonly used for computer networks within a building, that is for LANs.
